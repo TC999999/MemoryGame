@@ -50,7 +50,7 @@ function createDivsForColors(colorArray) {
     // give it a class attribute for the value we are looping over
     newDiv.classList.add(color);
 
-    //Tyler's Addition
+    //My Addition
     newDiv.classList.add("card");
 
     // call a function handleCardClick when a div is clicked on
@@ -70,7 +70,7 @@ function handleCardClick(event) {
 // when the DOM loads
 createDivsForColors(shuffledColors);
 
-//Tyler's Additions
+//My Additions
 let flipUp = 0;
 let matchArr = [];
 
